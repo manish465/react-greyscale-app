@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./header.css";
+
 const tab = ["HOME", "GALLERY", "BLOG", "PAGE", "SHOP", "ELEMENTS"];
 
 const Header = () => {
