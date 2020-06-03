@@ -8,7 +8,9 @@ const Header = () => {
             <div className='logo-conatiner'>FUEGO.</div>
             <ul className='appBar-tabs'>
                 {tab.map((el, key) => (
-                    <li key={key}>{el}</li>
+                    <li className='link-tabs' key={key}>
+                        {el}
+                    </li>
                 ))}
             </ul>
             <div className='menu-icon'>menu</div>
