@@ -1,21 +1,8 @@
-.content-box-white {
-    mix-blend-mode: difference;
-    width: 100%;
-    height: 500px;
-    background: white;
-}
-
 .content-box-black {
     mix-blend-mode: difference;
     width: 100%;
     height: 500px;
     background: black;
-}
-
-.content-box-white .content-box-text {
-    position: relative;
-    bottom: 80%;
-    left: 50%;
 }
 
 .content-box-black .content-box-text {
@@ -48,6 +35,18 @@
     font-weight: 500;
 }
 
+.content-box-white {
+    mix-blend-mode: difference;
+    width: 100%;
+    height: 500px;
+    background: white;
+}
+
+.content-box-white .content-box-text {
+    position: relative;
+    bottom: 80%;
+    left: 50%;
+}
 .content-box-white .content-box-text .heading {
     font-size: 2rem;
     font-weight: 700;
