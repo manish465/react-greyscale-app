@@ -1,8 +1,19 @@
+.background img {
+    width: 100%;
+}
+
 .content-box-black {
     mix-blend-mode: difference;
     width: 100%;
     height: 500px;
     background: black;
+}
+
+.content-box-white {
+    mix-blend-mode: difference;
+    width: 100%;
+    height: 500px;
+    background: white;
 }
 
 .content-box-black .content-box-text {
@@ -11,13 +22,31 @@
     left: 20%;
 }
 
+.content-box-white .content-box-text {
+    position: relative;
+    bottom: 80%;
+    left: 50%;
+}
+
 .content-box-black .content-box-text .heading {
     font-size: 2rem;
     font-weight: 700;
     color: white;
 }
 
+.content-box-white .content-box-text .heading {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .content-box-black .content-box-text .body-text {
+    color: #707070;
+    margin-top: 20px;
+    width: 650px;
+    height: 75px;
+}
+
+.content-box-white .content-box-text .body-text {
     color: #707070;
     margin-top: 20px;
     width: 650px;
@@ -33,30 +62,6 @@
     border: 3px solid white;
     font-size: 1rem;
     font-weight: 500;
-}
-
-.content-box-white {
-    mix-blend-mode: difference;
-    width: 100%;
-    height: 500px;
-    background: white;
-}
-
-.content-box-white .content-box-text {
-    position: relative;
-    bottom: 80%;
-    left: 50%;
-}
-.content-box-white .content-box-text .heading {
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-.content-box-white .content-box-text .body-text {
-    color: #707070;
-    margin-top: 20px;
-    width: 650px;
-    height: 75px;
 }
 
 .content-box-white .content-box-text button {
