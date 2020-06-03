@@ -1,14 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="153" height="58" viewBox="0 0 153 58">
-  <defs>
-    <style>
-      .cls-1 {
-        font-size: 44px;
-        font-family: SegoeUI-Bold, Segoe UI;
-        font-weight: 700;
-      }
-    </style>
-  </defs>
-  <g id="LogoIcons" transform="translate(-46 -25)">
-    <text id="FUEGO." class="cls-1" transform="translate(46 72)"><tspan x="0" y="0">FUEGO.</tspan></text>
-  </g>
+<svg
+    style="background-color: white;"
+    xmlns="http://www.w3.org/2000/svg"
+    width="153"
+    height="58"
+    viewBox="0 0 153 58"
+>
+    <defs>
+        <style>
+            .cls-1 {
+                font-size: 44px;
+                font-family: SegoeUI-Bold, Segoe UI;
+                font-weight: 700;
+            }
+        </style>
+    </defs>
+    <g id="LogoIcons" transform="translate(-46 -25)">
+        <text id="FUEGO." class="cls-1" transform="translate(46 72)">
+            <tspan x="0" y="0">FUEGO.</tspan>
+        </text>
+    </g>
 </svg>
