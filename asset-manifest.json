@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-greyscale-app/static/css/main.00f6e177.chunk.css",
+    "main.js": "/react-greyscale-app/static/js/main.c0518e9c.chunk.js",
+    "main.js.map": "/react-greyscale-app/static/js/main.c0518e9c.chunk.js.map",
+    "runtime-main.js": "/react-greyscale-app/static/js/runtime-main.212f6a86.js",
+    "runtime-main.js.map": "/react-greyscale-app/static/js/runtime-main.212f6a86.js.map",
+    "static/js/2.f939aa73.chunk.js": "/react-greyscale-app/static/js/2.f939aa73.chunk.js",
+    "static/js/2.f939aa73.chunk.js.map": "/react-greyscale-app/static/js/2.f939aa73.chunk.js.map",
+    "index.html": "/react-greyscale-app/index.html",
+    "precache-manifest.49f356313735f6894335b2155caf037d.js": "/react-greyscale-app/precache-manifest.49f356313735f6894335b2155caf037d.js",
+    "service-worker.js": "/react-greyscale-app/service-worker.js",
+    "static/css/main.00f6e177.chunk.css.map": "/react-greyscale-app/static/css/main.00f6e177.chunk.css.map",
+    "static/js/2.f939aa73.chunk.js.LICENSE.txt": "/react-greyscale-app/static/js/2.f939aa73.chunk.js.LICENSE.txt",
+    "static/media/LogoIcons.svg": "/react-greyscale-app/static/media/LogoIcons.70c91c20.svg",
+    "static/media/MenueButton.svg": "/react-greyscale-app/static/media/MenueButton.6eca8208.svg",
+    "static/media/img1.png": "/react-greyscale-app/static/media/img1.0738243c.png",
+    "static/media/img2.png": "/react-greyscale-app/static/media/img2.8252f295.png",
+    "static/media/img3.png": "/react-greyscale-app/static/media/img3.c10b5663.png",
+    "static/media/img4.png": "/react-greyscale-app/static/media/img4.baa74977.png",
+    "static/media/img5.png": "/react-greyscale-app/static/media/img5.7c73de33.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.212f6a86.js",
+    "static/js/2.f939aa73.chunk.js",
+    "static/css/main.00f6e177.chunk.css",
+    "static/js/main.c0518e9c.chunk.js"
+  ]
+}
