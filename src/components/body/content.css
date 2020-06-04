@@ -30,13 +30,14 @@
 
 .content-box-black .content-box-text .heading {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 900;
     color: white;
 }
 
 .content-box-white .content-box-text .heading {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 900;
+    color: black;
 }
 
 .content-box-black .content-box-text .body-text {
