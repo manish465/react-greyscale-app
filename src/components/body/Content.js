@@ -20,18 +20,33 @@ const Content = ({ backgroundImage, title, text, darkTheme }) => {
                 <motion.div
                     initial={{ y: -190, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 1.2, ease: "easeOut", duration: 0.7 }}
+                    transition={{
+                        type: "spring",
+                        delay: 1.2,
+                        ease: "easeOut",
+                        duration: 0.7,
+                        damping: 20,
+                    }}
                     className='heading'>
                     {title}
                 </motion.div>
                 <motion.div
                     initial={{ y: -190, opacity: 0, rotateX: 180 }}
                     animate={{ y: 0, opacity: 1, rotateX: 0 }}
-                    transition={{ delay: 1.2, ease: "easeOut", duration: 0.7 }}
+                    transition={{
+                        type: "spring",
+                        delay: 1.2,
+                        ease: "easeOut",
+                        duration: 0.7,
+                    }}
                     className='body-text'>
                     {text}
                 </motion.div>
-                <button>PURCHASE</button>
+                <motion.button
+                    whileTap={{ borderRadius: 50 }}
+                    whileHover={{ scale: 1.8 }}>
+                    PURCHASE
+                </motion.button>
             </div>
         </div>
     );

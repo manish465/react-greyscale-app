@@ -9,10 +9,11 @@ const tab = ["HOME", "GALLERY", "BLOG", "PAGE", "SHOP", "ELEMENTS"];
 const Header = () => {
     return (
         <motion.header
-            initial={{ opacity: 0, y: 0, rotateX: 180 }}
+            initial={{ opacity: 0, y: -90, rotateX: 180 }}
             animate={{ opacity: 1, y: 0, rotateX: 0 }}
             transition={{
-                duration: 0.6,
+                type: "spring",
+                duration: 0.8,
                 delay: 0.4,
                 ease: "easeOut",
             }}
